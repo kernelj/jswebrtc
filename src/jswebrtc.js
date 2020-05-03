@@ -1,4 +1,4 @@
-/*! jswebrtc v1.0 | (c) Dominic Szablewski | MIT license */
+/*! jswebrtc v1.0 | (c) Derek Chan | MIT license */
 
 
 // This sets up the JSWebrtc "Namespace". The object is empty apart from the Now()
