@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebRTCPlayer</title>
+</head>
+<body>
+    <video id="video-webrtc" controls></canvas>
+	<script type="text/javascript" src="../dist/jswebrtc.min.js"></script>
+	<script type="text/javascript">
+		var video = document.getElementById('video-webrtc');
+		var url = 'webrtc://osiii.com/live/livestream';
+		var player = new JSWebrtc.Player(url, { video: video, autoplay: true, onPlay: (obj) => { console.log("start play") } });
+	</script>
+</body>
+</html>
