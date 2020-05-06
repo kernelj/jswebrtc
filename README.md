@@ -31,13 +31,13 @@ var player = new JSWebrtc.Player(url [, options]);
 
 - `video` – 用于播放视频的 HTML Video 元素.
 - `autoplay` - 是否自动播放. 默认 `false`.
-- `onPlay(player)` – 播放开始后回调
-- `onPause(player)` – 暂停时候回调事件
+- `onPlay(player)` – 播放后回调
+- `onPause(player)` – 暂停后回调
 
 
 ## JSWebrtc.Player API
 
-实例 `JSWebrtc.Player` 支持一下方法和属性:
+实例 `JSWebrtc.Player` 支持以下方法和属性:
 
 - `.play()` – 开始
 - `.pause()` – 暂停
